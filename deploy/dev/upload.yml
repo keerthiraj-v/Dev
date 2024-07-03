@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: upload
-          image: 192.168.48.137:6000/upload:latest
+          image: 192.168.48.138:6000/upload:latest
           env:
             - name: dbpoint
               value: svc-db.default.svc.cluster.local:3004
