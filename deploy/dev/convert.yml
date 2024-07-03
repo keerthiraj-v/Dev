@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: convert
-          imagePullPolicy: Never
+          imagePullPolicy: Always
           image: 192.168.48.138:6000/convert:latest
           ports:
             - containerPort: 5000
